@@ -6,7 +6,7 @@ All credits to original owners
 
 Instructions are down below
 
-**Never cheat on a main account, its not worth it**
+# **Never cheat on a main account, its not worth it**
 
 <details>
 <summary><b>Features</b></summary>
