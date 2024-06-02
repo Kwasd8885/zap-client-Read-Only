@@ -1,4 +1,4 @@
-# zap-client No memory write [Kmbox B+] (in progress)
+# zap-client No memory write [Kmbox B+] (Unverified)
 
 By **Gerosity**
 
