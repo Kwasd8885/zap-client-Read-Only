@@ -1,5 +1,4 @@
-# zap-client Read Only Version [Apex External Cheat For Linux]
-**Updated to Game Version v3.0.68.50 (Season 21) (10.05.24)**
+# zap-client No memory write [Kmbox B+]
 
 By **Gerosity**
 
@@ -19,89 +18,6 @@ Instructions are down below
     Settings - Disable Overlay, Disable ESP, FPS Cap
     Configs - Custom Configs, Premade Configs
 
-</details>
-
-<details>
-<summary><b>Changelog</b></summary>
-    
-    10.05.24 - Version 1.1.1
-    - Updated offsets to latest version (Game Version v3.0.68.50)
-    - Fixed Spectator List (Might get patched sooner or later)
-
-    07.05.24 - Version 1.1.0 - Season 21 Update
-    Updated offsets to latest version (Game Version v3.0.67.34)
-    
-    Legitbot:
-        - Added Target Visuals (Draw Line, Dot & Box On/To Aimbot Current or Best Target)
-        - Added Target Information (Draw Information About Aimbot Current or Best Target)
-        - Fixed Standalone RCS
-    Triggerbot:
-        - Added Attack Methods (Mouse or Memory, Both Support Controller, Memory has not been thoroughly tested)
-        - Added Triggerbot Delay (Note: Processing Speed Affects This, Its Not Perfect & Depending On Attack Method, It Will Be Different)
-    Glow:
-        - Fixed Glow Max Distance (Now ACTUALLY works)
-        - Added Knocked Check & Knocked Color
-        - Fixed Glow Sheild Based Color Mode
-        - Fixed Custom Item Glow (?)
-    Sense:
-        - Added Knocked Check & Knocked Color
-        - Added Box, Skeleton & Head Circle Outlines
-        - Re-designed Watermark And Spectator List (Still Patched) (Credits: hir0xy)
-        - Fixed Position Changer
-    Misc:
-        - Added Superglide Modes (Manual Or Automatic, Automatic Supports Controller)
-        - Re-designed Misc Tab (Credits: hir0xy)
-    Settings:
-        - Overlay Now Runs At An Uncapped Refresh Rate
-        - If FPS Cap Is Disabled, Cheat Will Run At Refresh Rate (Recommened)
-        - Added Toggle For Anti Aliased Lines - For ESP
-        - Added Dead Check - Displays ESP & Glow If You Are Dead/Spectating
-    Configs:
-        - Added Premade Configs (Note: Not Perfect & Should Be Used As A Base For Creating Your Own
-        Legit Config, Fine Tune To Your Liking!)
-    Other:
-        - Added Version Check (Can Be Skipped) (Credits: hir0xy)
-        - Fixed A Couple Error Messages (Credits: hir0xy)
-        - Optimizations (Untested) & Cleaner Code  (Credits: hir0xy)
-        - Fixed Overlay Errors (Credits: hir0xy)
-    
-    22.04.24 - Version 1.0.6.1
-    Updated offsets to latest version (Game Version v3.0.65.42)
-    Busy atm but will eventually start working on a better and more optimised version of this
-
-    8.04.24 - Version 1.0.6
-    Updated offsets to latest version (Game Version v3.0.63.32)
-
-    1.04.24
-    Updated offsets to latest version (Game version v3.0.62.30)
-
-    30.03.24 - Version 1.0.5
-    Legitbot:
-        New Aimbot Mode (An old xap-client smoothing method), testing for now
-        Smoothing Modes (Static and randomised) (For randomised I recommend setting the values close together!)
-    Ragebot:
-        Fixes
-    Flickbot:
-        Fixes
-    Misc:
-        SuperGlide FPS (Set it to your in-game FPS, 75 is probably the best)
-    Settings:
-        Removed Gamemode Toggle - It now automatically switches based on what 
-        gamemode your playing
-    Other:
-        Randomised Overlay Name now actually works
-        Added a run.sh script which randomises the zapclient binary and hides PID once 
-        executed - use this instead of ./zapclient
-
-    26.03.24 - Version 1.0.3
-    Updated to latest game version (Game Version v3.0.62.29)
-
-    24.03.24 - Version 1.0.2
-    
-    Complete GUI Overhaul
-    Fixed issues with aimbot & triggerbot
-    Added Ragebot, Flickbot, Viewmodel Glow, Glow Customizations, ESP Features, BHop, QuickTurn, RapidFire, Overlay Settings
-    Bunch a stuff that I cant remember all at once
 </details>
 
 <details>
