@@ -13,6 +13,7 @@
 #include "../Utils/Config.hpp"
 #include "../Utils/Features.hpp"
 #include "../Utils/Weapons.hpp"
+#include "../Utils/Kmbox_interface.hpp"
 #include "../Core/Level.hpp"
 
 // UI //
