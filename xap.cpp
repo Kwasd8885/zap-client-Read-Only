@@ -36,6 +36,7 @@
 #include "Utils/Features.hpp"
 #include "Utils/Memory.hpp"
 #include "Utils/XDisplay.hpp"
+#include "Utils/Kmbox_interface.hpp"
 #include "imgui/imgui.h"
 
 // Objects
@@ -418,6 +419,20 @@ int main(int argc, char* argv[]) {
         std::cout << "Please run as sudo!" << std::endl;
         return -1;
     }
+    
+    // Connect to Kmbox
+    string port = find_port("USB-SERIAL CH340"); // name of the kmbox port without ( COM )
+    if (port.empty()) {
+        std::cout << "\n	[!] no port found..";
+		return;
+	}
+
+    if (!open_port(hSerial, port.c_str(), CBR_115200))  { // CBR_1115200 is the baud rate
+		std::cout << "\n	[!] opening the port failed!";
+		return;
+	}
+
+    std::cout << "\n	[+] connected to the kmbox with " + port;
 
     // Waiting for Apex Legends to be found //
     while (Memory::GetPID() == 0) {
