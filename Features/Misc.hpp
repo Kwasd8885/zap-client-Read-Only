@@ -29,6 +29,7 @@
 #include "../Utils/Memory.hpp"
 #include "../Utils/Weapons.hpp"
 #include "../Utils/XDisplay.hpp"
+#include "../Utils/Kmbox_interface.hpp"
 
 // UI //
 #include "../imgui/imgui.h"
