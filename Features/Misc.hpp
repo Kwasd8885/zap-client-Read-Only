@@ -187,7 +187,11 @@ struct Misc {
     if (RapidFireList.find(Myself->WeaponIndex) == RapidFireList.end())
       return;
     if (InputManager::isKeyDownOrPress(Features::Misc::RapidFireBind)) {
-      X11Display->MouseClickLeft();
+      std::string command = "km.left(" + std::to_string(1)  + ")\r\n"; // left mouse button down
+      Sleep(10); // to stop it from crashing idk
+      std::string command1 = "km.left(" + std::to_string(0) + ")\r\n"; // left mouse button up
+      send_command(hSerial, command.c_str());
+      send_command(hSerial, command1.c_str());
       std::this_thread::sleep_for(
           std::chrono::milliseconds(Features::Misc::RapidFireDelay));
     }
