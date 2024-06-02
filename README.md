@@ -107,7 +107,7 @@ https://github.com/Gerosity/Apex-Protection         - A protection guide, not fu
 **Note: You will need to alt+tab between the cheat overlay and apex.**
 
 # Credits:
-    https://github.com/sys-1337/kmbox-communication/ - kmbox code to control the mouse
+    https://github.com/sys-1337/kmbox-communication - kmbox code to control the mouse
     https://github.com/Nexilist/xap-client - for the base, massive credits to them
     https://github.com/arturzxc/grinder - alternate aimbot mode, most of the misc features
     https://github.com/Braziliana/T_TApe - custom config system
