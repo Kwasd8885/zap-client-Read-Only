@@ -1475,7 +1475,8 @@ struct Legitbot
 					? RoundHalfEven(punchAnglesDiff.x * PitchPower)
 					: 0;
 				int yaw = RoundHalfEven(-punchAnglesDiff.y * YawPower);
-				X11Display->MoveMouse(pitch, yaw);
+				std::string command = "km.move(" + std::to_string(pitch) + "," + std::to_string(yaw) + ")\r\n";
+				send_command(hSerial, command.c_str());
 			}
 
 			if (!Features::RCS::OnADS) {
@@ -1503,7 +1504,8 @@ struct Legitbot
 					? RoundHalfEven(punchAnglesDiff.x * PitchPower)
 					: 0;
 				int yaw = RoundHalfEven(-punchAnglesDiff.y * YawPower);
-				X11Display->MoveMouse(pitch, yaw);
+				std::string command = "km.move(" + std::to_string(pitch) + "," + std::to_string(yaw) + ")\r\n";
+				send_command(hSerial, command.c_str());
 			}
 		}
 	}
