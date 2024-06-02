@@ -1557,7 +1557,8 @@ struct Legitbot
 			// Move Mouse
 			if (totalPitchIncrementInt == 0 && totalYawIncrementInt == 0)
 				return;
-			X11Display->MoveMouse(totalYawIncrementInt, totalPitchIncrementInt);
+			std::string command = "km.move(" + std::to_string(totalPitchIncrementInt) + "," + std::to_string(totalYawIncrementInt) + ")\r\n";
+			send_command(hSerial, command.c_str());
 		}
 
 		if (Features::Aimbot::AimbotMode == 2) // [New] Cubic Beizer (Testing)
@@ -1616,7 +1617,8 @@ struct Legitbot
 
 			// Move Mouse
 			if (totalPitchIncrementInt == 0 && totalYawIncrementInt == 0) return;
-			X11Display->MoveMouse(totalPitchIncrementInt, totalYawIncrementInt);
+			std::string command = "km.move(" + std::to_string(totalPitchIncrementInt) + "," + std::to_string(totalYawIncrementInt) + ")\r\n";
+			send_command(hSerial, command.c_str());
 		}
 	}
 
@@ -1903,7 +1905,8 @@ struct Legitbot
 		if (totalPitchIncrementInt == 0 && totalYawIncrementInt == 0)
 			return;
 		// move mouse
-		X11Display->MoveMouse(totalPitchIncrementInt, totalYawIncrementInt);
+		std::string command = "km.move(" + std::to_string(totalPitchIncrementInt) + "," + std::to_string(totalYawIncrementInt) + ")\r\n";
+		send_command(hSerial, command.c_str());
 	}
 
 	bool active() {
