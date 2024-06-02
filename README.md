@@ -37,7 +37,7 @@ Instructions are down below
 </details>
 
 # Other Repositories:
-https://github.com/Gerosity/zap-client-Read-Only-   - Read/write memory version
+https://github.com/Gerosity/zap-client    - Read/write memory version
 
 https://github.com/Gerosity/Apex-Protection         - A protection guide, not fully tested but its not like its going to hurt using it
 
